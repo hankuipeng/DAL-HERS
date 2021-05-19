@@ -13,7 +13,7 @@ Please contact Hankui Peng (hp467@cam.ac.uk) if you have any question.
 The training code was mainly developed and tested with Python 3.8.5, PyTorch 1.7.0, OpenCV 4.4.0, and Ubuntu 20.04.
 
 
-## Build HERS module in Python
+## Building HERS module in Python
 Type the following in terminal under the main project repository:
 ```
 make module 
