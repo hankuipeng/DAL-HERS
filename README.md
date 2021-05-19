@@ -4,7 +4,7 @@ This is an implementation of the methodology introduced in our work:
 
 **Hierarchical Entropy Rate Superpixel Segmentation with Learned Affinities**
 
-[Hankui Peng](https://hankuipeng.github.io/), [Angelica I. Aviles-Rivero](https://angelicaiaviles.wordpress.com/), and [Carola-Bibiane Sch\"{o}nlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html)
+[Hankui Peng](https://hankuipeng.github.io/), [Angelica I. Aviles-Rivero](https://angelicaiaviles.wordpress.com/), and [Carola-Bibiane Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html)
 
 Please contact Hankui Peng (hp467@cam.ac.uk) if you have any question.
 
