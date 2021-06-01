@@ -1,8 +1,8 @@
-# Hierarchical Entropy Rate Superpixel Segmentation with Learned Affinities
+# HERS Superpixels: Deep Affinity Learning for Hierarchical Entropy Rate Segmentation
 
-This is an implementation of the methodology introduced in our work:
+This is an implementation of the proposed method in our work:
 
-**Hierarchical Entropy Rate Superpixel Segmentation with Learned Affinities**
+**HERS Superpixels: Deep Affinity Learning for Hierarchical Entropy Rate Segmentation**
 
 [Hankui Peng](https://hankuipeng.github.io/), [Angelica I. Aviles-Rivero](https://angelicaiaviles.wordpress.com/), and [Carola-Bibiane Schönlieb](https://www.damtp.cam.ac.uk/user/cbs31/Home.html)
 
@@ -11,6 +11,10 @@ Please contact Hankui Peng (hp467@cam.ac.uk) if you have any question.
 
 ## Prerequisites
 The training code was mainly developed and tested with Python 3.8.5, PyTorch 1.7.0, OpenCV 4.4.0, and Ubuntu 20.04.
+
+
+## Model Set-up
+Download the pretrained Deep Affinity Learning model from [here](https://drive.google.com/file/d/14-uaeMAihLdMepfZAth19T1pfZIoMcaE/view?usp=sharing) and put it under the ```pretrained``` folder in the project repository.
 
 
 ## Building HERS module in Python
