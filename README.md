@@ -10,7 +10,7 @@ Please contact Hankui Peng (hp467@cam.ac.uk) if you have any question.
 
 
 ## Prerequisites
-The training code was mainly developed and tested with Python 3.8.5, PyTorch 1.7.0, OpenCV 4.4.0, and Ubuntu 20.04. We recommend the user to run the code in a clean environment, and create a new conda environment in the terminal: 
+The training code was mainly developed and tested with Python 3.8.5, PyTorch 1.7.0, OpenCV 4.4.0, and Ubuntu 20.04. We recommend the user to run the code in a clean environment by creating a new conda environment in the terminal: 
 ```
 conda create -n DAL-HERS python=3.8.5 anaconda
 
