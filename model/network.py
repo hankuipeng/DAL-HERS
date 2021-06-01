@@ -139,11 +139,11 @@ class MyResBlock(nn.Module):
         return out
 
 
-class DGSS(nn.Module):
+class DAL(nn.Module):
     
     def __init__(self, nr_channel, conv1_size):
     
-        super(DGSS, self).__init__()
+        super(DAL, self).__init__()
         
         pad_size = int((conv1_size - 1) / 2)
         self.pad1 = nn.ReplicationPad2d((pad_size, pad_size, pad_size, pad_size))     # left, right, top, bottom

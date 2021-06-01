@@ -33,9 +33,9 @@ import hers_superpixel
 
 
 ## input arguments 
-parser = argparse.ArgumentParser(description='Hierarchical Entropy Rate Superpixel (HERS) Segmentation on a folder of images',
+parser = argparse.ArgumentParser(description='DAL-HERS Superpixel Segmentation on a folder of images',
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-parser.add_argument('--pretrained', default='./pretrained/DGSS_loss=bce-rgb_date=23Feb2021.tar', help='path to the pretrained model')
+parser.add_argument('--pretrained', default='./pretrained/DAL_loss=bce-rgb_date=23Feb2021.tar', help='path to the pretrained model')
 parser.add_argument('--input_dir', default='./sample_imgs/input/', help='path to images folder')
 parser.add_argument('--output_dir', default='./sample_imgs/output/', help='path to output folder')
 parser.add_argument('--output_suff', default='', help='suffix to the output file')
@@ -57,7 +57,7 @@ def main():
 
     # load the model 
     network_data = torch.load(args.pretrained, map_location=args.device)
-    model = DGSS(nr_channel=8, conv1_size=7)
+    model = DAL(nr_channel=8, conv1_size=7)
     model.load_state_dict(network_data['state_dict'])
     model.eval()
     

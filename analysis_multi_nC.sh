@@ -3,7 +3,7 @@
 MAIN_DIR="."
 INPUT_DIR="${MAIN_DIR}/sample_imgs/input/"
 OUTPUT_DIR="${MAIN_DIR}/sample_imgs/output/"
-PRETRAINED="${MAIN_DIR}/pretrained/DGSS_loss=bce-rgb_date=23Feb2021.tar"
+PRETRAINED="${MAIN_DIR}/pretrained/DAL_loss=bce-rgb_date=23Feb2021.tar"
 
 python3 analysis_multi_nC.py \
 --pretrained $PRETRAINED \
