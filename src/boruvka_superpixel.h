@@ -22,7 +22,7 @@
 }
 
 #define PENALTY   1e-8
-#define MIN_VALUE 1e-20
+#define MIN_VALUE 1e-50
 
 struct Edge {
     int v0;                             // vertex 0

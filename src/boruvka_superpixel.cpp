@@ -557,7 +557,8 @@ void BoruvkaSuperpixel::build_hierarchy()
             int label1 = label_[edge->v1];
             
             double dist_feat = calc_dist(edge, boruvka_iter);
-            double dist = edge->gain_ / dist_feat;
+            double dist = edge->gain_ / dist_feat; // entropy rate and RGB info
+            //double dist = edge->gain_; // entropy rate only 
             
             if (dist > min_pair[label0].value) {
                 min_pair[label0].value = dist;

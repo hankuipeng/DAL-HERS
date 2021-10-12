@@ -16,7 +16,7 @@ conda create -n DAL-HERS python=3.8.5 anaconda
 
 conda activate DAL-HERS 
 ```
-Then the user may need to install a few other Python packages, such as pytorch, torchvision, opencv, etc. These packages can be installed with pip in terminal. 
+The user may need to install a few other Python packages, such as pytorch, torchvision, opencv, etc. These packages can be installed with pip in terminal. 
 
 
 ## Model set-up

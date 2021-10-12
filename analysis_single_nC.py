@@ -36,11 +36,11 @@ import hers_superpixel
 parser = argparse.ArgumentParser(description='DAL-HERS Superpixel Segmentation on a folder of images',
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--nC', default=200, type=int, help='the number of desired superpixels')
-parser.add_argument('--pretrained', default='./pretrained/DGSS_loss=bce-rgb_date=23Feb2021.tar', help='path to the pretrained model')
+parser.add_argument('--pretrained', default='./pretrained/DAL_loss=bce-rgb_date=23Feb2021.tar', help='path to the pretrained model')
 parser.add_argument('--input_dir', default='./sample_imgs/input/', help='path to images folder')
 parser.add_argument('--output_dir', default='./sample_imgs/output/', help='path to output folder')
 parser.add_argument('--output_suff', default='', help='suffix to the output file')
-parser.add_argument('--edge', default=True, help='whether to incorporate edge information')
+parser.add_argument('--edge', default=False, help='whether to incorporate edge information')
 parser.add_argument('--device', default=torch.device("cuda:0" if torch.cuda.is_available() else "cpu"), help='default device (CPU / GPU)')
 args = parser.parse_args()
 
